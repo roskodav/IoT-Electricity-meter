@@ -11,7 +11,7 @@ int ledDelay = 100; //How long LED is ON in ms.
 void loop()
 {
   ldr_value = analogRead(ldr); //Read LDR photoresistor
-  if(ldr_value > 500)  // Greater valie is LED ON, value dependence on resistor.
+  if(ldr_value > 500)  // Greater value is LED ON, value dependence on resistor.
   {
     if (currentTick >= awarageCount)  //Sum last awarageCount(4) values
     {
