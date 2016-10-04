@@ -7,6 +7,10 @@ int awarageCount = 4;//Average last count
 int currentTick = 0;
 int sumDiff = 0;
 
+void setup(){
+  
+}
+
 int ledDelay = 100; //How long LED is ON in ms.
 void loop()
 {
